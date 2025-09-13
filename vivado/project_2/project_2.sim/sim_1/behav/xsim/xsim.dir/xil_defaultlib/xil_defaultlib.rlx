@@ -1,0 +1,9 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+D:/Github/ttsky_multiplier_uart_spi/src/uart_rx.sv,1757756738,systemVerilog,,D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv,,uart_rx,,uvm,,,,,,
+D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv,1757760163,systemVerilog,,D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv,,uart_rx_tx,,uvm,,,,,,
+D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx_tb.sv,1757762699,systemVerilog,,,,uart_rx_tx_tb,,uvm,,,,,,
+D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv,1757756756,systemVerilog,,D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx_tb.sv,,uart_tx,,uvm,,,,,,
+D:/Github/ttsky_multiplier_uart_spi/vivado/project_2/project_2.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,uvm,,,,,,
