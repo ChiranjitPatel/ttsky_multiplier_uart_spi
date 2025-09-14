@@ -41,7 +41,7 @@ module uart_spi_top
 
 	
 	// Instantiate the UART module
-    uart_rx_tx_loopback dut_uart (
+    uart_rx_tx dut_uart (
         .clk(clk),
         .reset(reset),
         .uart_rx_d_in(uart_rx_d_in),
@@ -53,7 +53,7 @@ module uart_spi_top
     );
 
 	// Instantiate the SPI module
-	spi_master_slave_v3_clk_crtl_loopback dut_spi (
+	spi_master_slave_v3_clk_crtl dut_spi (
         .clk(clk),           
 		.reset(reset),
         .slave_rx_start(slave_rx_start),
