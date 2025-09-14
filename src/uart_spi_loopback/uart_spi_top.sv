@@ -9,6 +9,7 @@ module uart_spi_top
 	uart_tx_start,
 	cs_bar,
 	sclk,
+	loopback,
 	mosi,
 	spi_start,
 	slave_rx_start,
@@ -30,6 +31,7 @@ module uart_spi_top
 	input logic cs_bar;
 	input logic mosi;
 	input logic spi_start;
+	input logic loopback;
 	input logic slave_rx_start;
 	input logic slave_tx_start;
 	output logic uart_tx_d_out;
@@ -52,6 +54,7 @@ module uart_spi_top
         .uart_rx_d_in(uart_rx_d_in),
         .uart_tx_start(uart_tx_start),
 		.freq_control(freq_control),
+		.loopback(loopback),
         .uart_tx_d_out(uart_tx_d_out),
         .uart_rx_valid(uart_rx_valid),
         .uart_tx_ready(uart_tx_ready)
@@ -63,6 +66,7 @@ module uart_spi_top
 		.reset(reset),
         .slave_rx_start(slave_rx_start),
         .slave_tx_start(slave_tx_start),
+        .loopback(loopback),
         .mosi(mosi),
         .freq_control(freq_control),
         .cs_bar(cs_bar),
