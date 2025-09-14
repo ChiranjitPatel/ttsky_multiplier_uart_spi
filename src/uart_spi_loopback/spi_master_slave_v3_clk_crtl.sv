@@ -111,7 +111,7 @@ module spi_master_slave_v3_clk_crtl (
 			tx_done <= 0;
 			rx_state_flag <= 0;
 			tx_state_flag <= 0;
-			// mosi_reg_data <= 0;
+			miso_reg_data <= 0;
 			miso <= 0;
 			
 			state <= IDLE;
