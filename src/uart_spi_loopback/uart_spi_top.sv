@@ -68,8 +68,8 @@ module uart_spi_top
         .cs_bar(cs_bar),
         .sclk(sclk),
         .miso(miso),
-        .rx_valid(rx_valid),
-        .tx_done(tx_done)
+        .rx_valid(spi_rx_valid),
+        .tx_done(spi_tx_done)
     );
 
 endmodule
