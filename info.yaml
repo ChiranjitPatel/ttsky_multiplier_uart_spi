@@ -18,10 +18,10 @@ project:
   # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
   source_files:
     - "project.v"
-    - "src/uart_spi_loopback/uart_tx.sv"
-    - "src/uart_spi_loopback/uart_rx.sv"
-    - "src/uart_spi_loopback/uart_rx_tx.sv"
-    - "src/uart_spi_loopback/spi_master_slave_v3_clk_crtl.sv"
+    - "uart_spi_loopback/uart_tx.sv"
+    - "uart_spi_loopback/uart_rx.sv"
+    - "uart_spi_loopback/uart_rx_tx.sv"
+    - "uart_spi_loopback/spi_master_slave_v3_clk_crtl.sv"
     
 
 
