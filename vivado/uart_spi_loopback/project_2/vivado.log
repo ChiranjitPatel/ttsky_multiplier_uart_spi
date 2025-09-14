@@ -528,3 +528,5 @@ WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-f
 ERROR: [Common 17-180] Spawn failed: No error
 close_sim
 INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Sep 15 01:58:31 2025...
