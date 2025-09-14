@@ -1,4 +1,7 @@
-Running: xsim.dir/tb_spi_master_slave_v3_clk_crtl_loopback_behav/xsimk.exe -simmode gui -wdb tb_spi_master_slave_v3_clk_crtl_loopback_behav.wdb -simrunnum 0 -socket 57406
+Running: xsim.dir/tb_spi_master_slave_v3_clk_crtl_loopback_behav/xsimk.exe -simmode gui -wdb tb_spi_master_slave_v3_clk_crtl_loopback_behav.wdb -simrunnum 0 -socket 62565
 Design successfully loaded
-Design Loading Memory Usage: 7724 KB (Peak: 7724 KB)
-Design Loading CPU Usage: 15 ms
+Design Loading Memory Usage: 8552 KB (Peak: 8552 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 9188 KB (Peak: 9188 KB)
+Simulation CPU Usage: 0 ms

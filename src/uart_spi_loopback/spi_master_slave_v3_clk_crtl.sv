@@ -95,12 +95,6 @@ module spi_master_slave_v3_clk_crtl (
             sclk <= 1;
         end
     end
-
-	// Hardcoded connection for testing: output reg always equals input reg
-	always_latch begin
-		if (loopback ==1)
-			mosi_reg_data = miso_reg_data;
-	end
 	
 	// State Machine
     always_ff @(posedge clk or negedge reset) begin
@@ -132,8 +126,15 @@ module spi_master_slave_v3_clk_crtl (
 						tx_bit_cnt <= 0;
 						wait_cnt <= 0;
 						rx_shift_reg <= {rx_shift_reg[DATA_WIDTH-2:0], mosi};
-						miso_reg_data <= rx_shift_reg;
-						tx_shift_reg <= miso_reg_data;
+						// tx_shift_reg <= miso_reg_data;
+						
+						if (loopback) begin
+							tx_shift_reg <= mosi_reg_data;
+						end
+						else begin
+							tx_shift_reg <= miso_reg_data;
+						end
+						
 						rx_valid <= 0;
 						tx_done <= 0;
 						rx_state_flag <= 0;
