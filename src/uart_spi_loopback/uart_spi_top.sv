@@ -43,7 +43,7 @@ module uart_spi_top
 	// Instantiate the UART module
     uart_rx_tx dut_uart (
         .clk_int(clk),
-        .reset(reset),
+        .uart_reset(reset),
         .uart_rx_d_in(uart_rx_d_in),
         .uart_tx_start(uart_tx_start),
 		.freq_control(freq_control),
