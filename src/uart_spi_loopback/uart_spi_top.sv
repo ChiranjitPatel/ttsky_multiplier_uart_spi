@@ -11,12 +11,15 @@ module uart_spi_top
 	sclk,
 	mosi,
 	spi_start,
+	slave_rx_start,
+	slave_tx_start,
 	uart_tx_d_out,
 	miso,
 	uart_rx_valid,
 	uart_tx_ready,
 	spi_rx_valid,
 	spi_tx_done
+	
 	);
 
 	input logic clk;

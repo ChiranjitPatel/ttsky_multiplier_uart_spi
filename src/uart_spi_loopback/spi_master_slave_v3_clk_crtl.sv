@@ -1,4 +1,4 @@
-`default_nettype wire
+// `default_nettype wire
 
 module spi_master_slave_v3_clk_crtl (
     clk,           

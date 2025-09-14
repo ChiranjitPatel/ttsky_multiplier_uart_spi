@@ -26,6 +26,8 @@ module tt_um_uart_spi (
 		.cs_bar(ui_in[4]),
 		.mosi(ui_in[5]),
 		.spi_start(ui_in[6]),
+		.slave_rx_start(uio_in[0]),
+		.slave_tx_start(uio_in[1]),
 		.uart_tx_d_out(uo_out[0]),
 		.miso(uo_out[1]),
 		.uart_rx_valid(uo_out[2]),
