@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 // `timescale 1ns/1ps
-`default_nettype none
+// `default_nettype none
 
 module tt_um_uart_spi (
     input  wire [7:0] ui_in,    // Dedicated inputs
