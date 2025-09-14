@@ -30,6 +30,8 @@ module uart_spi_top
 	input logic cs_bar;
 	input logic mosi;
 	input logic spi_start;
+	input logic slave_rx_start;
+	input logic slave_tx_start;
 	output logic uart_tx_d_out;
 	output logic miso;
 	output logic sclk;
