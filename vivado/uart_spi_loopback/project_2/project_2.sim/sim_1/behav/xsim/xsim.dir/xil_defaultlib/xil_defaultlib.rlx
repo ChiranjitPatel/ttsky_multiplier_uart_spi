@@ -2,10 +2,6 @@
 2020.2
 May 22 2024
 19:03:11
-D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_loopback/spi_master_slave_v3_clk_crtl.sv,1757865276,systemVerilog,,D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_loopback/tb_spi_master_slave_v3_clk_crtl_loopback.sv,,spi_master_slave_v3_clk_crtl,,uvm,,,,,,
-D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_loopback/tb_spi_master_slave_v3_clk_crtl_50M.sv,1757856771,systemVerilog,,,,tb_spi_master_slave,,uvm,,,,,,
-D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_loopback/tb_spi_master_slave_v3_clk_crtl_loopback.sv,1757858515,systemVerilog,,,,tb_spi_master_slave_v3_clk_crtl_loopback,,uvm,,,,,,
-D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_loopback/uart_rx.sv,1757756738,systemVerilog,,D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_loopback/uart_rx_tx.sv,,uart_rx,,uvm,,,,,,
-D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_loopback/uart_rx_tx.sv,1757760163,systemVerilog,,D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_loopback/uart_rx_tx_loopback.sv,,uart_rx_tx,,uvm,,,,,,
-D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_loopback/uart_tx.sv,1757756756,systemVerilog,,D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_loopback/uart_rx_tx_tb.sv,,uart_tx,,uvm,,,,,,
-D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/ADMIN/Documents/GitHub/ttsky_multiplier_uart_spi/src/uart_spi_loopback/spi_master_slave_v3_clk_crtl.sv,1757871397,systemVerilog,,C:/Users/ADMIN/Documents/GitHub/ttsky_multiplier_uart_spi/src/uart_spi_loopback/tb_spi_master_slave_v3_clk_crtl_loopback.sv,,spi_master_slave_v3_clk_crtl,,uvm,,,,,,
+C:/Users/ADMIN/Documents/GitHub/ttsky_multiplier_uart_spi/src/uart_spi_loopback/tb_spi_master_slave_v3_clk_crtl_loopback.sv,1757872165,systemVerilog,,,,tb_spi_master_slave_v3_clk_crtl_loopback,,uvm,,,,,,
+C:/Users/ADMIN/Documents/GitHub/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim/glbl.v,1757870408,verilog,,,,glbl,,uvm,,,,,,

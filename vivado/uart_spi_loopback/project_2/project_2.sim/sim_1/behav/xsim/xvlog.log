@@ -1,4 +1,4 @@
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_loopback/spi_master_slave_v3_clk_crtl.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ADMIN/Documents/GitHub/ttsky_multiplier_uart_spi/src/uart_spi_loopback/spi_master_slave_v3_clk_crtl.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module spi_master_slave_v3_clk_crtl
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_loopback/tb_spi_master_slave_v3_clk_crtl_loopback.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ADMIN/Documents/GitHub/ttsky_multiplier_uart_spi/src/uart_spi_loopback/tb_spi_master_slave_v3_clk_crtl_loopback.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module tb_spi_master_slave_v3_clk_crtl_loopback
