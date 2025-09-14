@@ -22,6 +22,7 @@ project:
     - "uart_spi_loopback/uart_rx.sv"
     - "uart_spi_loopback/uart_rx_tx.sv"
     - "uart_spi_loopback/spi_master_slave_v3_clk_crtl.sv"
+    - "uart_spi_loopback/uart_spi_top.sv"
     
 
 
