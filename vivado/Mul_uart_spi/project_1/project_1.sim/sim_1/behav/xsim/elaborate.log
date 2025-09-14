@@ -1,0 +1,131 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/SOFTWARES/vivado2024/install/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_multiply_core_uart_spi_behav xil_defaultlib.tb_multiply_core_uart_spi xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 5 for port 'ot' [D:/Github/ttsky_multiplier_uart_spi/src/mul/i4bit_mul.sv:22]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/i8bit_mul_interface.sv" Line 1. Module i8bit_mul_interface doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/i8bit_mul.sv" Line 2. Module i8bit_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/i4bit_mul.sv" Line 2. Module i4bit_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/i2bit_mul.sv" Line 4. Module i2bit_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/i2bit_mul.sv" Line 4. Module i2bit_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/i2bit_mul.sv" Line 4. Module i2bit_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/i2bit_mul.sv" Line 4. Module i2bit_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/csa_1_4bit.sv" Line 1. Module csa_1_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/csa_2_4bit.sv" Line 1. Module csa_2_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/i4bit_mul.sv" Line 2. Module i4bit_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/i2bit_mul.sv" Line 4. Module i2bit_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/i2bit_mul.sv" Line 4. Module i2bit_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/i2bit_mul.sv" Line 4. Module i2bit_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/i2bit_mul.sv" Line 4. Module i2bit_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/csa_1_4bit.sv" Line 1. Module csa_1_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/csa_2_4bit.sv" Line 1. Module csa_2_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/i4bit_mul.sv" Line 2. Module i4bit_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/i2bit_mul.sv" Line 4. Module i2bit_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/i2bit_mul.sv" Line 4. Module i2bit_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/i2bit_mul.sv" Line 4. Module i2bit_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/i2bit_mul.sv" Line 4. Module i2bit_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/csa_1_4bit.sv" Line 1. Module csa_1_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/csa_2_4bit.sv" Line 1. Module csa_2_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/i4bit_mul.sv" Line 2. Module i4bit_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/i2bit_mul.sv" Line 4. Module i2bit_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/i2bit_mul.sv" Line 4. Module i2bit_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/i2bit_mul.sv" Line 4. Module i2bit_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/i2bit_mul.sv" Line 4. Module i2bit_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/csa_1_4bit.sv" Line 1. Module csa_1_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/csa_2_4bit.sv" Line 1. Module csa_2_4bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/csa_1_8bit.sv" Line 1. Module csa_1_8bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" Line 18. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/csa_2_8bit.sv" Line 1. Module csa_2_8bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" Line 18. Module ha doesn't have a timescale but at least one module in design has a timescale.
+INFO: [Common 17-14] Message 'XSIM 43-4099' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_tx
+Compiling module xil_defaultlib.uart_rx
+Compiling module xil_defaultlib.uart_rx_tx
+Compiling module xil_defaultlib.spi_master_slave_v3_clk_crtl_def...
+Compiling module xil_defaultlib.i2bit_mul
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.ha
+Compiling module xil_defaultlib.csa_1_4bit
+Compiling module xil_defaultlib.csa_2_4bit
+Compiling module xil_defaultlib.i4bit_mul
+Compiling module xil_defaultlib.csa_1_8bit
+Compiling module xil_defaultlib.csa_2_8bit
+Compiling module xil_defaultlib.i8bit_mul
+Compiling module xil_defaultlib.i8bit_mul_interface
+Compiling module xil_defaultlib.multiply_core_uart_spi_default
+Compiling module xil_defaultlib.tb_multiply_core_uart_spi
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_multiply_core_uart_spi_behav

@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../../../src/mul/csa_1_4bit.sv" \
+"../../../../../../../src/mul/csa_1_8bit.sv" \
+"../../../../../../../src/mul/csa_2_4bit.sv" \
+"../../../../../../../src/mul/csa_2_8bit.sv" \
+"../../../../../../../src/mul/fa.sv" \
+"../../../../../../../src/mul/ha.sv" \
+"../../../../../../../src/mul/i2bit_mul.sv" \
+"../../../../../../../src/mul/i4bit_mul.sv" \
+"../../../../../../../src/mul/i8bit_mul.sv" \
+"../../../../../../../src/mul/i8bit_mul_interface.sv" \
+"../../../../../../../src/multiply_core_uart_spi.sv" \
+"../../../../../../../src/spi/spi_master_slave_v3_clk_crtl.sv" \
+"../../../../../../../src/uart/uart_rx.sv" \
+"../../../../../../../src/uart/uart_rx_tx.sv" \
+"../../../../../../../src/uart/uart_tx.sv" \
+"../../../../../../../src/tb_multiply_core_uart_spi_final.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

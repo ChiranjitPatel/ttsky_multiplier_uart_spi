@@ -1,0 +1,4 @@
+Running: xsim.dir/tb_spi_master_slave_v3_clk_crtl_loopback_behav/xsimk.exe -simmode gui -wdb tb_spi_master_slave_v3_clk_crtl_loopback_behav.wdb -simrunnum 0 -socket 57406
+Design successfully loaded
+Design Loading Memory Usage: 7724 KB (Peak: 7724 KB)
+Design Loading CPU Usage: 15 ms

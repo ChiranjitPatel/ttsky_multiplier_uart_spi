@@ -1,0 +1,101 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Sep 14 13:29:56 2025
+# Process ID: 18476
+# Current directory: D:/Github/ttsky_multiplier_uart_spi/vivado/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18760 D:\Github\ttsky_multiplier_uart_spi\vivado\project_2\project_2.xpr
+# Log file: D:/Github/ttsky_multiplier_uart_spi/vivado/project_2/vivado.log
+# Journal file: D:/Github/ttsky_multiplier_uart_spi/vivado/project_2\vivado.jou
+# Running On        :GHOST
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz
+# CPU Frequency     :2496 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :17041 MB
+# Swap memory       :1073 MB
+# Total Virtual     :18114 MB
+# Available Virtual :8233 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Github/ttsky_multiplier_uart_spi/vivado/project_2/project_2.xpr
+update_compile_order -fileset sources_1
+add_files -norecurse D:/Github/ttsky_multiplier_uart_spi/src/mul/multiply_core_uart_spi.sv
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse D:/Github/ttsky_multiplier_uart_spi/src/mul/multiply_core_uart_spi_tb.sv
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_multiply_core_uart_spi [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse D:/Github/ttsky_multiplier_uart_spi/src/spi/tb_spi_master_slave_v3_clk_crtl_50M.sv
+update_compile_order -fileset sim_1
+add_files -norecurse D:/Github/ttsky_multiplier_uart_spi/src/spi/spi_master_slave_v3_clk_crtl.sv
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_spi_master_slave [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config D:/Github/ttsky_multiplier_uart_spi/vivado/project_2/uart_rx_tx_tb_behav.wcfg
+source tb_spi_master_slave.tcl
+current_wave_config {uart_rx_tx_tb_behav.wcfg}
+add_wave {{/tb_spi_master_slave}} 
+run 2 ns
+run 2 ns
+run 2 ns
+restart
+run 2 ns
+run 2 ns
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top spi_master_slave [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+relaunch_sim
+restart
+run 2 ns
+run 2 ns
+close_sim
+launch_simulation
+open_wave_config D:/Github/ttsky_multiplier_uart_spi/vivado/project_2/uart_rx_tx_tb_behav.wcfg
+source tb_spi_master_slave.tcl
+restart
+run 2 ns
+current_wave_config {uart_rx_tx_tb_behav.wcfg}
+add_wave {{/tb_spi_master_slave}} 
+restart
+run 2 ns
+run 2 ns
+run 2 ns
+close_sim
+close_project
+create_project SPI_test D:/Github/ttsky_multiplier_uart_spi/vivado/SPI_test -part xc7k70tfbv676-1
+add_files -norecurse D:/Github/ttsky_multiplier_uart_spi/src/spi/spi_master_slave_v3_clk_crtl.sv
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse D:/Github/ttsky_multiplier_uart_spi/src/spi/tb_spi_master_slave_v3_clk_crtl_50M.sv
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_spi_master_slave.tcl
+restart
+run 2 ns
+run 2 ns
+restart
+current_wave_config {Untitled 1}
+add_wave {{/tb_spi_master_slave}} 
+run 2 ns
+close_sim

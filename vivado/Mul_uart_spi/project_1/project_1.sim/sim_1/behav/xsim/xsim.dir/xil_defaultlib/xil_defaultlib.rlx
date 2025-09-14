@@ -1,0 +1,21 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+D:/Github/ttsky_multiplier_uart_spi/src/mul/csa_1_4bit.sv,1739292260,systemVerilog,,D:/Github/ttsky_multiplier_uart_spi/src/mul/csa_1_8bit.sv,,csa_1_4bit,,uvm,,,,,,
+D:/Github/ttsky_multiplier_uart_spi/src/mul/csa_1_8bit.sv,1739292260,systemVerilog,,D:/Github/ttsky_multiplier_uart_spi/src/mul/csa_2_4bit.sv,,csa_1_8bit,,uvm,,,,,,
+D:/Github/ttsky_multiplier_uart_spi/src/mul/csa_2_4bit.sv,1739292260,systemVerilog,,D:/Github/ttsky_multiplier_uart_spi/src/mul/csa_2_8bit.sv,,csa_2_4bit,,uvm,,,,,,
+D:/Github/ttsky_multiplier_uart_spi/src/mul/csa_2_8bit.sv,1741526622,systemVerilog,,D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv,,csa_2_8bit,,uvm,,,,,,
+D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv,1739292260,systemVerilog,,D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv,,fa,,uvm,,,,,,
+D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv,1739292260,systemVerilog,,D:/Github/ttsky_multiplier_uart_spi/src/mul/i2bit_mul.sv,,ha,,uvm,,,,,,
+D:/Github/ttsky_multiplier_uart_spi/src/mul/i2bit_mul.sv,1739292260,systemVerilog,,D:/Github/ttsky_multiplier_uart_spi/src/mul/i4bit_mul.sv,,i2bit_mul,,uvm,,,,,,
+D:/Github/ttsky_multiplier_uart_spi/src/mul/i4bit_mul.sv,1739292260,systemVerilog,,D:/Github/ttsky_multiplier_uart_spi/src/mul/i8bit_mul.sv,,i4bit_mul,,uvm,,,,,,
+D:/Github/ttsky_multiplier_uart_spi/src/mul/i8bit_mul.sv,1739292260,systemVerilog,,D:/Github/ttsky_multiplier_uart_spi/src/mul/i8bit_mul_interface.sv,,i8bit_mul,,uvm,,,,,,
+D:/Github/ttsky_multiplier_uart_spi/src/mul/i8bit_mul_interface.sv,1741543953,systemVerilog,,D:/Github/ttsky_multiplier_uart_spi/src/multiply_core_uart_spi.sv,,i8bit_mul_interface,,uvm,,,,,,
+D:/Github/ttsky_multiplier_uart_spi/src/multiply_core_uart_spi.sv,1757852706,systemVerilog,,D:/Github/ttsky_multiplier_uart_spi/src/spi/spi_master_slave_v3_clk_crtl.sv,,multiply_core_uart_spi,,uvm,,,,,,
+D:/Github/ttsky_multiplier_uart_spi/src/spi/spi_master_slave_v3_clk_crtl.sv,1757849256,systemVerilog,,D:/Github/ttsky_multiplier_uart_spi/src/uart/uart_rx.sv,,spi_master_slave_v3_clk_crtl,,uvm,,,,,,
+D:/Github/ttsky_multiplier_uart_spi/src/tb_multiply_core_uart_spi_final.sv,1757851843,systemVerilog,,,,tb_multiply_core_uart_spi,,uvm,,,,,,
+D:/Github/ttsky_multiplier_uart_spi/src/uart/uart_rx.sv,1757756738,systemVerilog,,D:/Github/ttsky_multiplier_uart_spi/src/uart/uart_rx_tx.sv,,uart_rx,,uvm,,,,,,
+D:/Github/ttsky_multiplier_uart_spi/src/uart/uart_rx_tx.sv,1757760163,systemVerilog,,D:/Github/ttsky_multiplier_uart_spi/src/uart/uart_tx.sv,,uart_rx_tx,,uvm,,,,,,
+D:/Github/ttsky_multiplier_uart_spi/src/uart/uart_tx.sv,1757756756,systemVerilog,,D:/Github/ttsky_multiplier_uart_spi/src/tb_multiply_core_uart_spi_final.sv,,uart_tx,,uvm,,,,,,
+D:/Github/ttsky_multiplier_uart_spi/vivado/Mul_uart_spi/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,uvm,,,,,,

@@ -1,0 +1,7 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+D:/Github/ttsky_multiplier_uart_spi/src/spi/spi_master_slave_v3_clk_crtl.sv,1757844863,systemVerilog,,D:/Github/ttsky_multiplier_uart_spi/src/spi/tb_spi_master_slave_v3_clk_crtl_50M.sv,,spi_master_slave,,uvm,,,,,,
+D:/Github/ttsky_multiplier_uart_spi/src/spi/tb_spi_master_slave_v3_clk_crtl_50M.sv,1757848679,systemVerilog,,,,tb_spi_master_slave,,uvm,,,,,,
+D:/Github/ttsky_multiplier_uart_spi/vivado/SPI_test/SPI_test.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,uvm,,,,,,

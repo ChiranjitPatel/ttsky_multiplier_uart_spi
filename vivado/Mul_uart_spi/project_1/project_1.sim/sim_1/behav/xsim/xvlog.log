@@ -1,0 +1,33 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/mul/csa_1_4bit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csa_1_4bit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/mul/csa_1_8bit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csa_1_8bit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/mul/csa_2_4bit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csa_2_4bit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/mul/csa_2_8bit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csa_2_8bit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/mul/fa.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/mul/ha.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ha
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/mul/i2bit_mul.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2bit_mul
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/mul/i4bit_mul.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i4bit_mul
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/mul/i8bit_mul.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i8bit_mul
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/mul/i8bit_mul_interface.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i8bit_mul_interface
+WARNING: [VRFC 10-2379] empty port in module declaration [D:/Github/ttsky_multiplier_uart_spi/src/mul/i8bit_mul_interface.sv:9]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/multiply_core_uart_spi.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiply_core_uart_spi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/spi/spi_master_slave_v3_clk_crtl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_master_slave_v3_clk_crtl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart/uart_rx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart/uart_rx_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart/uart_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/tb_multiply_core_uart_spi_final.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_multiply_core_uart_spi
