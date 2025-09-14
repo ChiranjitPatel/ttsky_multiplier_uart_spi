@@ -97,7 +97,7 @@ module spi_master_slave_v3_clk_crtl (
 	// Hardcoded connection for testing: output reg always equals input reg
 	always_latch begin
 		if (loopback ==1)
-			assign mosi_reg_data = miso_reg_data;
+			mosi_reg_data = miso_reg_data;
 	end
 	
 	// State Machine
