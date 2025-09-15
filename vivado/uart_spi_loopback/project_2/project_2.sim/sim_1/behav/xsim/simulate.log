@@ -1,5 +1,51 @@
 Time resolution is 1 ps
-Starting TX-only test...
-TX-only test failed: sent 55aa, collected on miso xxxx
-Starting RX-only test...
-Starting TX+RX test...
+time=0, sclk=1, cs_bar=0, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Starting UART loopback test...
+UART RX valid asserted.
+UART loopback test passed: sent a5, received a5
+Starting SPI loopback test with cs_bar=1...
+time=19850000, sclk=1, cs_bar=1, slave_rx_start=1, slave_tx_start=0, rx_valid=0, tx_done=0
+time=19870000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+SCLK started toggling (detected negedge).
+time=19950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Timeout: SCLK did not start toggling with cs_bar=1.
+time=21950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+SPI RX valid asserted with cs_bar=1.
+time=23350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=1, tx_done=1
+time=23370000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=1, rx_valid=1, tx_done=1
+SCLK started for TX with cs_bar=1.
+time=23390000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=1, tx_done=1
+Timeout: SCLK did not start for TX with cs_bar=1.
+Timeout: rx_valid not asserted with cs_bar=1.

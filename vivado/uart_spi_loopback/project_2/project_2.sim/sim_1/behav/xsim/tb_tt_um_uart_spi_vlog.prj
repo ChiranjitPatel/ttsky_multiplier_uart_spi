@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../../src/project.v" \
+
+sv xil_defaultlib  \
+"../../../../../../../src/spi_master_slave_v3_clk_crtl.sv" \
+"../../../../../../../src/uart_rx.sv" \
+"../../../../../../../src/uart_rx_tx.sv" \
+"../../../../../../../src/uart_spi_top.sv" \
+"../../../../../../../src/uart_tx.sv" \
+"../../../../../../../src/tb_project.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

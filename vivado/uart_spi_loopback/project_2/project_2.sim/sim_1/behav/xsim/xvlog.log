@@ -1,4 +1,12 @@
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ADMIN/Documents/GitHub/ttsky_multiplier_uart_spi/src/uart_spi_loopback/spi_master_slave_v3_clk_crtl.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/spi_master_slave_v3_clk_crtl.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module spi_master_slave_v3_clk_crtl
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ADMIN/Documents/GitHub/ttsky_multiplier_uart_spi/src/uart_spi_loopback/tb_spi_master_slave_v3_clk_crtl_loopback.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module tb_spi_master_slave_v3_clk_crtl_loopback
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_spi_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/tb_project.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_tt_um_uart_spi
