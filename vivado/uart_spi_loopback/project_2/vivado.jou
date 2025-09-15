@@ -3,10 +3,10 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Mon Sep 15 20:10:41 2025
-# Process ID: 17200
+# Start of session at: Mon Sep 15 23:29:44 2025
+# Process ID: 21308
 # Current directory: D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5388 D:\Github\ttsky_multiplier_uart_spi\vivado\uart_spi_loopback\project_2\project_2.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21932 D:\Github\ttsky_multiplier_uart_spi\vivado\uart_spi_loopback\project_2\project_2.xpr
 # Log file: D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/vivado.log
 # Journal file: D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2\vivado.jou
 # Running On        :GHOST
@@ -19,50 +19,50 @@
 # Host memory       :17041 MB
 # Swap memory       :1073 MB
 # Total Virtual     :18114 MB
-# Available Virtual :8755 MB
+# Available Virtual :7105 MB
 #-----------------------------------------------------------
 start_gui
 open_project D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.xpr
 update_compile_order -fileset sources_1
-export_ip_user_files -of_objects  [get_files D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_loopback/spi_master_slave_v3_clk_crtl.sv] -no_script -reset -force -quiet
-remove_files  D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_loopback/spi_master_slave_v3_clk_crtl.sv
-export_ip_user_files -of_objects  [get_files D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_loopback/tb_spi_master_slave_v3_clk_crtl_50M.sv] -no_script -reset -force -quiet
-export_ip_user_files -of_objects  [get_files D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_loopback/tb_spi_master_slave_v3_clk_crtl_loopback.sv] -no_script -reset -force -quiet
-remove_files  -fileset sim_1 {D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_loopback/tb_spi_master_slave_v3_clk_crtl_50M.sv D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_loopback/tb_spi_master_slave_v3_clk_crtl_loopback.sv}
-add_files -norecurse {D:/Github/ttsky_multiplier_uart_spi/src/uart_rx.sv D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_top.sv D:/Github/ttsky_multiplier_uart_spi/src/project.v D:/Github/ttsky_multiplier_uart_spi/src/spi_master_slave_v3_clk_crtl.sv D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv}
-update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-set_property SOURCE_SET sources_1 [get_filesets sim_1]
-add_files -fileset sim_1 -norecurse D:/Github/ttsky_multiplier_uart_spi/src/tb_project.sv
-update_compile_order -fileset sim_1
-update_compile_order -fileset sim_1
 launch_simulation
 open_wave_config D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/tb_spi_master_slave_v3_clk_crtl_loopback_behav.wcfg
 source tb_tt_um_uart_spi.tcl
 restart
-current_wave_config {tb_spi_master_slave_v3_clk_crtl_loopback_behav.wcfg}
-add_wave {{/tb_tt_um_uart_spi}} 
-run 2 us
-run 2 us
-run 2 us
-run 2 us
-run 2 us
-run 2 us
-run 2 us
-run 2 us
-run 2 us
-run 2 ms
-current_wave_config {tb_spi_master_slave_v3_clk_crtl_loopback_behav.wcfg}
-add_wave {{/tb_tt_um_uart_spi/dut}} 
-current_wave_config {tb_spi_master_slave_v3_clk_crtl_loopback_behav.wcfg}
-add_wave {{/tb_tt_um_uart_spi/dut/top_uut}} 
-restart
-run 2 ms
 run 2 ms
 relaunch_sim
 restart
 run 2 ms
 relaunch_sim
+restart
 run 2 ms
+current_wave_config {tb_spi_master_slave_v3_clk_crtl_loopback_behav.wcfg}
+add_wave {{/tb_tt_um_uart_spi/dut/top_uut/dut_spi}} 
+restart
+run 1 ms
+restart
+run 100 us
+relaunch_sim
+restart
+run 100 us
+relaunch_sim
+restart
+run 100 us
+relaunch_sim
+restart
+run 100 us
+relaunch_sim
+restart
+run 100 us
+relaunch_sim
+restart
+run 50 us
+relaunch_sim
+restart
+relaunch_sim
+restart
+run 50 us
+relaunch_sim
+restart
+run 50 us
 save_wave_config {D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/tb_spi_master_slave_v3_clk_crtl_loopback_behav.wcfg}
 close_sim

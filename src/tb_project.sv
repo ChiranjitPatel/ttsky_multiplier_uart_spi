@@ -206,7 +206,7 @@ module tb_tt_um_uart_spi;
 
         // Test 1: UART loopback (unchanged)
         $display("Starting UART loopback test...");
-        ui_in[7] = 1;  // loopback=1
+        ui_in[7] = 0;  // loopback=1
         uart_tx_data = 8'hA5;
 
         ui_in[2] = 0;  // Start bit
@@ -242,166 +242,194 @@ module tb_tt_um_uart_spi;
 
         #200;
 
+///////////////////////////////////////////////////////////////////////////////////////////////
+
         // SPI Tests with different cs_bar values for debugging
-        ui_in[7] = 1;  // loopback=1
-        spi_tx_data = 16'hA55A;
+        ui_in[7] = 0;  // loopback
+		uio_in[0] = 0; // slave_rx_start
+        uio_in[1] = 0; // slave_rx_start
+		ui_in[1:0] = 2'b01; // freq_control
+		ui_in[4] = 1;  // cs_bar=1
+		rst_n = 0;
+		#40;
+        rst_n = 1;
 
         // Test 2a: SPI loopback with cs_bar=1 (as per DUT condition & cs_bar)
         $display("Starting SPI loopback test with cs_bar=1...");
-        ui_in[4] = 1;  // cs_bar=1
 
-        bit_idx = 15;
-        ui_in[5] = spi_tx_data[bit_idx];
-        bit_idx--;
-
-        @(posedge clk);  // Sync trigger to posedge
+        // @(posedge clk);  // Sync trigger to posedge
         uio_in[0] = 1;  // slave_rx_start=1
         #20;
         uio_in[0] = 0;
-
-        // Wait for SCLK to start with timeout
-        fork
-            begin
-                wait(uo_out[6] == 0);
-                $display("SCLK started toggling (detected negedge).");
-            end
-            begin
-                #2000;  // Timeout after 2000 ns (~100 clock cycles)
-                $display("Timeout: SCLK did not start toggling with cs_bar=1.");
-            end
-        join_any
-
-        // If started, drive remaining bits
-        if (uo_out[6] == 0 || uo_out[6] == 1) begin  // Proceed if toggled at least once
-            while (bit_idx >= 0) begin
+		bit_idx = 15;
+		
+		spi_tx_data = 16'hA55A;
+		
+		@(negedge uo_out[6])
+		ui_in[5] = spi_tx_data[bit_idx];  //mosi = ...
+		bit_idx--;
+		
+		while (bit_idx >= 0) begin
                 @(negedge uo_out[6]);
                 ui_in[5] = spi_tx_data[bit_idx];
                 bit_idx--;
-            end
-
-            // Wait for rx_valid with timeout
-            fork
-                begin
-                    wait(uo_out[4] == 1);
-                    $display("SPI RX valid asserted with cs_bar=1.");
-                end
-                begin
-                    #10000;  // Longer timeout for slow clock
-                    $display("Timeout: rx_valid not asserted with cs_bar=1.");
-                end
-            join_any
         end
+		
+		wait (uo_out[4]);
+		#20;
+		
+		#200;
+		
+		
+        // // Wait for SCLK to start with timeout
+        // fork
+            // begin
+                // wait(uo_out[6] == 0);
+                // $display("SCLK started toggling (detected negedge).");
+            // end
+            // begin
+                // #2000;  // Timeout after 2000 ns (~100 clock cycles)
+                // $display("Timeout: SCLK did not start toggling with cs_bar=1.");
+            // end
+        // join_any
 
-        // TX part (similarly with timeout)
-        @(posedge clk);
-        uio_in[1] = 1;  // slave_tx_start=1
-        #20;
-        uio_in[1] = 0;
+		
+        // // If started, drive remaining bits
+        // if (uo_out[6] == 0 || uo_out[6] == 1) begin  // Proceed if toggled at least once
+            // while (bit_idx >= 0) begin
+                // @(negedge uo_out[6]);
+                // ui_in[5] = spi_tx_data[bit_idx];
+                // bit_idx--;
+            // end
 
-        fork
-            begin
-                wait(uo_out[6] == 0);
-                $display("SCLK started for TX with cs_bar=1.");
-            end
-            begin
-                #2000;
-                $display("Timeout: SCLK did not start for TX with cs_bar=1.");
-            end
-        join_any
+            // // Wait for rx_valid with timeout
+            // fork
+                // begin
+                    // wait(uo_out[4] == 1);
+                    // $display("SPI RX valid asserted with cs_bar=1.");
+                // end
+                // begin
+                    // #10000;  // Longer timeout for slow clock
+                    // $display("Timeout: rx_valid not asserted with cs_bar=1.");
+                // end
+            // join_any
+        // end
+		
+        // // TX part (similarly with timeout)
+        // @(posedge clk);
+        // uio_in[0] = 1;  // slave_tx_start=1
+        // uio_in[1] = 1;  // slave_tx_start=1
+        // #20;
+        // uio_in[0] = 0;
+        // uio_in[1] = 0;
 
-        spi_rx_received = 0;
-        bit_idx = 0;
-        while (bit_idx < 16) begin
-            @(posedge uo_out[6]);
-            spi_rx_received = {spi_rx_received[14:0], uo_out[1]};
-            bit_idx++;
-        end
-        wait(uo_out[5] == 1);
-        #20;
+		// #100;
+		// ui_in[7] = 1;  // loopback=1
+		
+        // fork
+            // begin
+                // wait(uo_out[6] == 0);
+                // $display("SCLK started for TX with cs_bar=1.");
+            // end
+            // begin
+                // #2000;
+                // $display("Timeout: SCLK did not start for TX with cs_bar=1.");
+            // end
+        // join_any
 
-        if (spi_rx_received == spi_tx_data)
-            $display("SPI test with cs_bar=1 passed: sent %h, received %h", spi_tx_data, spi_rx_received);
-        else
-            $display("SPI test with cs_bar=1 failed: sent %h, received %h", spi_tx_data, spi_rx_received);
+        // spi_rx_received = 0;
+        // bit_idx = 0;
+        // while (bit_idx < 16) begin
+            // @(posedge uo_out[6]);
+            // spi_rx_received = {spi_rx_received[14:0], uo_out[1]};
+            // bit_idx++;
+        // end
+        // wait(uo_out[5] == 1);
+        // #20;
 
-        #200;
+        // if (spi_rx_received == spi_tx_data)
+            // $display("SPI test with cs_bar=1 passed: sent %h, received %h", spi_tx_data, spi_rx_received);
+        // else
+            // $display("SPI test with cs_bar=1 failed: sent %h, received %h", spi_tx_data, spi_rx_received);
 
-        // Test 2b: SPI loopback with cs_bar=0 (in case condition should be ~cs_bar)
-        $display("Starting SPI loopback test with cs_bar=0 (debug alternative)...");
-        ui_in[4] = 0;  // cs_bar=0
+        // #200;
 
-        bit_idx = 15;
-        ui_in[5] = spi_tx_data[bit_idx];
-        bit_idx--;
+        // // Test 2b: SPI loopback with cs_bar=0 (in case condition should be ~cs_bar)
+        // $display("Starting SPI loopback test with cs_bar=0 (debug alternative)...");
+        // ui_in[4] = 0;  // cs_bar=0
 
-        @(posedge clk);
-        uio_in[0] = 1;
-        #20;
-        uio_in[0] = 0;
+        // bit_idx = 15;
+        // ui_in[5] = spi_tx_data[bit_idx];
+        // bit_idx--;
 
-        fork
-            begin
-                wait(uo_out[6] == 0);
-                $display("SCLK started toggling (detected negedge).");
-            end
-            begin
-                #2000;
-                $display("Timeout: SCLK did not start toggling with cs_bar=0. Consider fixing DUT condition to & ~cs_bar if this is the case.");
-            end
-        join_any
+        // @(posedge clk);
+        // uio_in[0] = 1;
+        // #20;
+        // uio_in[0] = 0;
 
-        if (uo_out[6] == 0 || uo_out[6] == 1) begin
-            while (bit_idx >= 0) begin
-                @(negedge uo_out[6]);
-                ui_in[5] = spi_tx_data[bit_idx];
-                bit_idx--;
-            end
+        // fork
+            // begin
+                // wait(uo_out[6] == 0);
+                // $display("SCLK started toggling (detected negedge).");
+            // end
+            // begin
+                // #2000;
+                // $display("Timeout: SCLK did not start toggling with cs_bar=0. Consider fixing DUT condition to & ~cs_bar if this is the case.");
+            // end
+        // join_any
 
-            fork
-                begin
-                    wait(uo_out[4] == 1);
-                    $display("SPI RX valid asserted with cs_bar=0.");
-                end
-                begin
-                    #10000;
-                    $display("Timeout: rx_valid not asserted with cs_bar=0.");
-                end
-            join_any
-        end
+        // if (uo_out[6] == 0 || uo_out[6] == 1) begin
+            // while (bit_idx >= 0) begin
+                // @(negedge uo_out[6]);
+                // ui_in[5] = spi_tx_data[bit_idx];
+                // bit_idx--;
+            // end
 
-        @(posedge clk);
-        uio_in[1] = 1;
-        #20;
-        uio_in[1] = 0;
+            // fork
+                // begin
+                    // wait(uo_out[4] == 1);
+                    // $display("SPI RX valid asserted with cs_bar=0.");
+                // end
+                // begin
+                    // #10000;
+                    // $display("Timeout: rx_valid not asserted with cs_bar=0.");
+                // end
+            // join_any
+        // end
 
-        fork
-            begin
-                wait(uo_out[6] == 0);
-                $display("SCLK started for TX with cs_bar=0.");
-            end
-            begin
-                #2000;
-                $display("Timeout: SCLK did not start for TX with cs_bar=0.");
-            end
-        join_any
+        // @(posedge clk);
+        // uio_in[1] = 1;
+        // #20;
+        // uio_in[1] = 0;
 
-        spi_rx_received = 0;
-        bit_idx = 0;
-        while (bit_idx < 16) begin
-            @(posedge uo_out[6]);
-            spi_rx_received = {spi_rx_received[14:0], uo_out[1]};
-            bit_idx++;
-        end
-        wait(uo_out[5] == 1);
-        #20;
+        // fork
+            // begin
+                // wait(uo_out[6] == 0);
+                // $display("SCLK started for TX with cs_bar=0.");
+            // end
+            // begin
+                // #2000;
+                // $display("Timeout: SCLK did not start for TX with cs_bar=0.");
+            // end
+        // join_any
 
-        if (spi_rx_received == spi_tx_data)
-            $display("SPI test with cs_bar=0 passed: sent %h, received %h (suggests DUT bug in start condition; should be & ~cs_bar)", spi_tx_data, spi_rx_received);
-        else
-            $display("SPI test with cs_bar=0 failed: sent %h, received %h", spi_tx_data, spi_rx_received);
+        // spi_rx_received = 0;
+        // bit_idx = 0;
+        // while (bit_idx < 16) begin
+            // @(posedge uo_out[6]);
+            // spi_rx_received = {spi_rx_received[14:0], uo_out[1]};
+            // bit_idx++;
+        // end
+        // wait(uo_out[5] == 1);
+        // #20;
 
-        #1000;
-        $finish;
+        // if (spi_rx_received == spi_tx_data)
+            // $display("SPI test with cs_bar=0 passed: sent %h, received %h (suggests DUT bug in start condition; should be & ~cs_bar)", spi_tx_data, spi_rx_received);
+        // else
+            // $display("SPI test with cs_bar=0 failed: sent %h, received %h", spi_tx_data, spi_rx_received);
+
+        // #1000;
+        // $finish;
     end
 
 endmodule

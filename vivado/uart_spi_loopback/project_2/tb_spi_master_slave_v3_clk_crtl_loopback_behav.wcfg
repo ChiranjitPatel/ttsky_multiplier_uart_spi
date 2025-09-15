@@ -11,178 +11,137 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
-      <ZoomEndTime time="42.274648 us"></ZoomEndTime>
-      <Cursor1Time time="20.350000 us"></Cursor1Time>
+      <ZoomStartTime time="19,136.235 ns"></ZoomStartTime>
+      <ZoomEndTime time="21,523.877 ns"></ZoomEndTime>
+      <Cursor1Time time="50,000.000 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="192"></NameColumnWidth>
-      <ValueColumnWidth column_width="59"></ValueColumnWidth>
+      <NameColumnWidth column_width="189"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="41" />
-   <wvobject fp_name="/tb_tt_um_uart_spi/ui_in" type="array">
-      <obj_property name="ElementShortName">ui_in[7:0]</obj_property>
-      <obj_property name="ObjectShortName">ui_in[7:0]</obj_property>
-      <obj_property name="isExpanded"></obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/uo_out" type="array">
-      <obj_property name="ElementShortName">uo_out[7:0]</obj_property>
-      <obj_property name="ObjectShortName">uo_out[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/uio_in" type="array">
-      <obj_property name="ElementShortName">uio_in[7:0]</obj_property>
-      <obj_property name="ObjectShortName">uio_in[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/uio_out" type="array">
-      <obj_property name="ElementShortName">uio_out[7:0]</obj_property>
-      <obj_property name="ObjectShortName">uio_out[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/uio_oe" type="array">
-      <obj_property name="ElementShortName">uio_oe[7:0]</obj_property>
-      <obj_property name="ObjectShortName">uio_oe[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/ena" type="logic">
-      <obj_property name="ElementShortName">ena</obj_property>
-      <obj_property name="ObjectShortName">ena</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/clk" type="logic">
+   <WVObjectSize size="31" />
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/clk" type="logic">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/rst_n" type="logic">
-      <obj_property name="ElementShortName">rst_n</obj_property>
-      <obj_property name="ObjectShortName">rst_n</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/uart_tx_data" type="array">
-      <obj_property name="ElementShortName">uart_tx_data[7:0]</obj_property>
-      <obj_property name="ObjectShortName">uart_tx_data[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/uart_rx_received" type="array">
-      <obj_property name="ElementShortName">uart_rx_received[7:0]</obj_property>
-      <obj_property name="ObjectShortName">uart_rx_received[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/spi_tx_data" type="array">
-      <obj_property name="ElementShortName">spi_tx_data[15:0]</obj_property>
-      <obj_property name="ObjectShortName">spi_tx_data[15:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/spi_rx_received" type="array">
-      <obj_property name="ElementShortName">spi_rx_received[15:0]</obj_property>
-      <obj_property name="ObjectShortName">spi_rx_received[15:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/bit_idx" type="array">
-      <obj_property name="ElementShortName">bit_idx[31:0]</obj_property>
-      <obj_property name="ObjectShortName">bit_idx[31:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/bit_time" type="other">
-      <obj_property name="ElementShortName">bit_time</obj_property>
-      <obj_property name="ObjectShortName">bit_time</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/dut/ui_in" type="array">
-      <obj_property name="ElementShortName">ui_in[7:0]</obj_property>
-      <obj_property name="ObjectShortName">ui_in[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/dut/uo_out" type="array">
-      <obj_property name="ElementShortName">uo_out[7:0]</obj_property>
-      <obj_property name="ObjectShortName">uo_out[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/dut/uio_in" type="array">
-      <obj_property name="ElementShortName">uio_in[7:0]</obj_property>
-      <obj_property name="ObjectShortName">uio_in[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/dut/uio_out" type="array">
-      <obj_property name="ElementShortName">uio_out[7:0]</obj_property>
-      <obj_property name="ObjectShortName">uio_out[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/dut/uio_oe" type="array">
-      <obj_property name="ElementShortName">uio_oe[7:0]</obj_property>
-      <obj_property name="ObjectShortName">uio_oe[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/dut/ena" type="logic">
-      <obj_property name="ElementShortName">ena</obj_property>
-      <obj_property name="ObjectShortName">ena</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/dut/clk" type="logic">
-      <obj_property name="ElementShortName">clk</obj_property>
-      <obj_property name="ObjectShortName">clk</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/dut/rst_n" type="logic">
-      <obj_property name="ElementShortName">rst_n</obj_property>
-      <obj_property name="ObjectShortName">rst_n</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/dut/_unused" type="logic">
-      <obj_property name="ElementShortName">_unused</obj_property>
-      <obj_property name="ObjectShortName">_unused</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/clk" type="logic">
-      <obj_property name="ElementShortName">clk</obj_property>
-      <obj_property name="ObjectShortName">clk</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/reset" type="logic">
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/reset" type="logic">
       <obj_property name="ElementShortName">reset</obj_property>
       <obj_property name="ObjectShortName">reset</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/freq_control" type="array">
-      <obj_property name="ElementShortName">freq_control[1:0]</obj_property>
-      <obj_property name="ObjectShortName">freq_control[1:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/uart_rx_d_in" type="logic">
-      <obj_property name="ElementShortName">uart_rx_d_in</obj_property>
-      <obj_property name="ObjectShortName">uart_rx_d_in</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/uart_tx_start" type="logic">
-      <obj_property name="ElementShortName">uart_tx_start</obj_property>
-      <obj_property name="ObjectShortName">uart_tx_start</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/cs_bar" type="logic">
-      <obj_property name="ElementShortName">cs_bar</obj_property>
-      <obj_property name="ObjectShortName">cs_bar</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/mosi" type="logic">
-      <obj_property name="ElementShortName">mosi</obj_property>
-      <obj_property name="ObjectShortName">mosi</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/spi_start" type="logic">
-      <obj_property name="ElementShortName">spi_start</obj_property>
-      <obj_property name="ObjectShortName">spi_start</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/loopback" type="logic">
-      <obj_property name="ElementShortName">loopback</obj_property>
-      <obj_property name="ObjectShortName">loopback</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/slave_rx_start" type="logic">
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/slave_rx_start" type="logic">
       <obj_property name="ElementShortName">slave_rx_start</obj_property>
       <obj_property name="ObjectShortName">slave_rx_start</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/slave_tx_start" type="logic">
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/slave_tx_start" type="logic">
       <obj_property name="ElementShortName">slave_tx_start</obj_property>
       <obj_property name="ObjectShortName">slave_tx_start</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/uart_tx_d_out" type="logic">
-      <obj_property name="ElementShortName">uart_tx_d_out</obj_property>
-      <obj_property name="ObjectShortName">uart_tx_d_out</obj_property>
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/loopback" type="logic">
+      <obj_property name="ElementShortName">loopback</obj_property>
+      <obj_property name="ObjectShortName">loopback</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/miso" type="logic">
-      <obj_property name="ElementShortName">miso</obj_property>
-      <obj_property name="ObjectShortName">miso</obj_property>
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/sclk" type="logic">
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/freq_control" type="array">
+      <obj_property name="ElementShortName">freq_control[1:0]</obj_property>
+      <obj_property name="ObjectShortName">freq_control[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/cs_bar" type="logic">
+      <obj_property name="ElementShortName">cs_bar</obj_property>
+      <obj_property name="ObjectShortName">cs_bar</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/sclk" type="logic">
       <obj_property name="ElementShortName">sclk</obj_property>
       <obj_property name="ObjectShortName">sclk</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/uart_rx_valid" type="logic">
-      <obj_property name="ElementShortName">uart_rx_valid</obj_property>
-      <obj_property name="ObjectShortName">uart_rx_valid</obj_property>
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/miso" type="logic">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/uart_tx_ready" type="logic">
-      <obj_property name="ElementShortName">uart_tx_ready</obj_property>
-      <obj_property name="ObjectShortName">uart_tx_ready</obj_property>
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/rx_valid" type="logic">
+      <obj_property name="ElementShortName">rx_valid</obj_property>
+      <obj_property name="ObjectShortName">rx_valid</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/spi_rx_valid" type="logic">
-      <obj_property name="ElementShortName">spi_rx_valid</obj_property>
-      <obj_property name="ObjectShortName">spi_rx_valid</obj_property>
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/tx_done" type="logic">
+      <obj_property name="ElementShortName">tx_done</obj_property>
+      <obj_property name="ObjectShortName">tx_done</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/spi_tx_done" type="logic">
-      <obj_property name="ElementShortName">spi_tx_done</obj_property>
-      <obj_property name="ObjectShortName">spi_tx_done</obj_property>
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/CLK_DIV" type="array">
+      <obj_property name="ElementShortName">CLK_DIV[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_DIV[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/miso_reg_data" type="array">
+      <obj_property name="ElementShortName">miso_reg_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">miso_reg_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/mosi_reg_data" type="array">
+      <obj_property name="ElementShortName">mosi_reg_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mosi_reg_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/rx_shift_reg" type="array">
+      <obj_property name="ElementShortName">rx_shift_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_shift_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/tx_shift_reg" type="array">
+      <obj_property name="ElementShortName">tx_shift_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_shift_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/rx_bit_cnt" type="array">
+      <obj_property name="ElementShortName">rx_bit_cnt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_bit_cnt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/tx_bit_cnt" type="array">
+      <obj_property name="ElementShortName">tx_bit_cnt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_bit_cnt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/sclk_en" type="logic">
+      <obj_property name="ElementShortName">sclk_en</obj_property>
+      <obj_property name="ObjectShortName">sclk_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/sclk_drive_edge" type="logic">
+      <obj_property name="ElementShortName">sclk_drive_edge</obj_property>
+      <obj_property name="ObjectShortName">sclk_drive_edge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/tx_ena" type="logic">
+      <obj_property name="ElementShortName">tx_ena</obj_property>
+      <obj_property name="ObjectShortName">tx_ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/rx_ena" type="logic">
+      <obj_property name="ElementShortName">rx_ena</obj_property>
+      <obj_property name="ObjectShortName">rx_ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/rx_state_flag" type="logic">
+      <obj_property name="ElementShortName">rx_state_flag</obj_property>
+      <obj_property name="ObjectShortName">rx_state_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/tx_state_flag" type="logic">
+      <obj_property name="ElementShortName">tx_state_flag</obj_property>
+      <obj_property name="ObjectShortName">tx_state_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/wait_cnt" type="array">
+      <obj_property name="ElementShortName">wait_cnt[5:0]</obj_property>
+      <obj_property name="ObjectShortName">wait_cnt[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/clk_div_cnt" type="array">
+      <obj_property name="ElementShortName">clk_div_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_div_cnt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/state" type="array">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/WAIT_BITS" type="array">
+      <obj_property name="ElementShortName">WAIT_BITS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WAIT_BITS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tt_um_uart_spi/dut/top_uut/dut_spi/DATA_WIDTH_BITS" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH_BITS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH_BITS[31:0]</obj_property>
    </wvobject>
 </wave_config>
