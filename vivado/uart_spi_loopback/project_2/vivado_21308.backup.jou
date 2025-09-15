@@ -3,10 +3,10 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Tue Sep 16 00:50:13 2025
-# Process ID: 15188
+# Start of session at: Mon Sep 15 23:29:44 2025
+# Process ID: 21308
 # Current directory: D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9092 D:\Github\ttsky_multiplier_uart_spi\vivado\uart_spi_loopback\project_2\project_2.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21932 D:\Github\ttsky_multiplier_uart_spi\vivado\uart_spi_loopback\project_2\project_2.xpr
 # Log file: D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/vivado.log
 # Journal file: D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2\vivado.jou
 # Running On        :GHOST
@@ -19,7 +19,7 @@
 # Host memory       :17041 MB
 # Swap memory       :1073 MB
 # Total Virtual     :18114 MB
-# Available Virtual :6233 MB
+# Available Virtual :7105 MB
 #-----------------------------------------------------------
 start_gui
 open_project D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.xpr
@@ -28,21 +28,41 @@ launch_simulation
 open_wave_config D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/tb_spi_master_slave_v3_clk_crtl_loopback_behav.wcfg
 source tb_tt_um_uart_spi.tcl
 restart
+run 2 ms
+relaunch_sim
+restart
+run 2 ms
+relaunch_sim
+restart
+run 2 ms
+current_wave_config {tb_spi_master_slave_v3_clk_crtl_loopback_behav.wcfg}
+add_wave {{/tb_tt_um_uart_spi/dut/top_uut/dut_spi}} 
+restart
+run 1 ms
+restart
+run 100 us
+relaunch_sim
+restart
+run 100 us
+relaunch_sim
+restart
+run 100 us
+relaunch_sim
+restart
+run 100 us
+relaunch_sim
+restart
+run 100 us
+relaunch_sim
+restart
 run 50 us
+relaunch_sim
+restart
 relaunch_sim
 restart
 run 50 us
 relaunch_sim
 restart
 run 50 us
-relaunch_sim
-restart
-run 50 us
-relaunch_sim
-restart
-run 50 us
-relaunch_sim
-restart
-run 50 us
-run 50 us
-relaunch_sim
+save_wave_config {D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/tb_spi_master_slave_v3_clk_crtl_loopback_behav.wcfg}
+close_sim

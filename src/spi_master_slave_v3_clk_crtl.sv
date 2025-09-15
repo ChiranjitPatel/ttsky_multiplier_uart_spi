@@ -113,6 +113,7 @@ module spi_master_slave_v3_clk_crtl (
 			tx_state_flag <= 0;
 			miso_reg_data <= 0;
 			miso <= 0;
+			sclk_drive_edge <= 0;
 			
 			state <= IDLE;
         end

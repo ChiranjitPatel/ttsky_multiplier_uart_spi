@@ -1,7 +1,4 @@
-Running: xsim.dir/tb_tt_um_uart_spi_behav/xsimk.exe -simmode gui -wdb tb_tt_um_uart_spi_behav.wdb -simrunnum 0 -socket 53778
+Running: xsim.dir/tb_tt_um_uart_spi_behav/xsimk.exe -simmode gui -wdb tb_tt_um_uart_spi_behav.wdb -simrunnum 0 -socket 64536
 Design successfully loaded
-Design Loading Memory Usage: 7756 KB (Peak: 7756 KB)
+Design Loading Memory Usage: 7732 KB (Peak: 7732 KB)
 Design Loading CPU Usage: 15 ms
-Simulation completed
-Simulation Memory Usage: 8800 KB (Peak: 8800 KB)
-Simulation CPU Usage: 62 ms

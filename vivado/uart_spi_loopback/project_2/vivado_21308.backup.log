@@ -1,0 +1,1385 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Sep 15 23:29:44 2025
+# Process ID: 21308
+# Current directory: D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21932 D:\Github\ttsky_multiplier_uart_spi\vivado\uart_spi_loopback\project_2\project_2.xpr
+# Log file: D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/vivado.log
+# Journal file: D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2\vivado.jou
+# Running On        :GHOST
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz
+# CPU Frequency     :2496 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :17041 MB
+# Swap memory       :1073 MB
+# Total Virtual     :18114 MB
+# Available Virtual :7105 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.2/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.2/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/SOFTWARES/vivado2024/install/Vivado/2024.1/data/ip'.
+open_project: Time (s): cpu = 00:00:43 ; elapsed = 00:00:22 . Memory (MB): peak = 1509.070 ; gain = 404.426
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_tt_um_uart_spi'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/SOFTWARES/vivado2024/install/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_tt_um_uart_spi' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_tt_um_uart_spi_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_tt_um_uart_spi_behav xil_defaultlib.tb_tt_um_uart_spi xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/SOFTWARES/vivado2024/install/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_tt_um_uart_spi_behav xil_defaultlib.tb_tt_um_uart_spi xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_tt_um_uart_spi_behav -key {Behavioral:sim_1:Functional:tb_tt_um_uart_spi} -tclbatch {tb_tt_um_uart_spi.tcl} -view {D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/tb_spi_master_slave_v3_clk_crtl_loopback_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/tb_spi_master_slave_v3_clk_crtl_loopback_behav.wcfg
+source tb_tt_um_uart_spi.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+time=0, sclk=1, cs_bar=0, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Starting UART loopback test...
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_tt_um_uart_spi_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:15 . Memory (MB): peak = 1537.207 ; gain = 23.332
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run 2 ms
+time=0, sclk=1, cs_bar=0, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Starting UART loopback test...
+UART RX valid asserted.
+UART loopback test passed: sent a5, received a5
+Starting SPI loopback test with cs_bar=1...
+time=19850000, sclk=1, cs_bar=1, slave_rx_start=1, slave_tx_start=0, rx_valid=0, tx_done=0
+time=19870000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+SCLK started toggling (detected negedge).
+time=19950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Timeout: SCLK did not start toggling with cs_bar=1.
+time=21950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+SPI RX valid asserted with cs_bar=1.
+time=23350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=1, tx_done=1
+time=23370000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=1, rx_valid=1, tx_done=1
+SCLK started for TX with cs_bar=1.
+time=23390000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=1, tx_done=1
+Timeout: SCLK did not start for TX with cs_bar=1.
+Timeout: rx_valid not asserted with cs_bar=1.
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_tt_um_uart_spi'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/SOFTWARES/vivado2024/install/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_tt_um_uart_spi' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_tt_um_uart_spi_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/spi_master_slave_v3_clk_crtl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_master_slave_v3_clk_crtl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_spi_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/tb_project.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_tt_um_uart_spi
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_tt_um_uart_spi'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_tt_um_uart_spi_behav xil_defaultlib.tb_tt_um_uart_spi xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/SOFTWARES/vivado2024/install/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_tt_um_uart_spi_behav xil_defaultlib.tb_tt_um_uart_spi xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/project.v" Line 8. Module tt_um_uart_spi doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_top.sv" Line 3. Module uart_spi_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv" Line 3. Module uart_rx_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv" Line 20. Module uart_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx.sv" Line 20. Module uart_rx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/spi_master_slave_v3_clk_crtl.sv" Line 3. Module spi_master_slave_v3_clk_crtl_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/project.v" Line 8. Module tt_um_uart_spi doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_top.sv" Line 3. Module uart_spi_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv" Line 3. Module uart_rx_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv" Line 20. Module uart_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx.sv" Line 20. Module uart_rx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/spi_master_slave_v3_clk_crtl.sv" Line 3. Module spi_master_slave_v3_clk_crtl_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_tx
+Compiling module xil_defaultlib.uart_rx
+Compiling module xil_defaultlib.uart_rx_tx
+Compiling module xil_defaultlib.spi_master_slave_v3_clk_crtl_def...
+Compiling module xil_defaultlib.uart_spi_top
+Compiling module xil_defaultlib.tt_um_uart_spi
+Compiling module xil_defaultlib.tb_tt_um_uart_spi
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_tt_um_uart_spi_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1550.641 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1550.641 ; gain = 0.000
+Time resolution is 1 ps
+time=0, sclk=1, cs_bar=0, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Starting UART loopback test...
+relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 1550.641 ; gain = 0.000
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run 2 ms
+time=0, sclk=1, cs_bar=0, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Starting UART loopback test...
+UART RX valid asserted.
+UART loopback test failed: sent a5, received xx
+Starting SPI loopback test with cs_bar=1...
+time=19850000, sclk=1, cs_bar=1, slave_rx_start=1, slave_tx_start=0, rx_valid=0, tx_done=0
+time=19870000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+SCLK started toggling (detected negedge).
+time=19950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Timeout: SCLK did not start toggling with cs_bar=1.
+time=21950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+SPI RX valid asserted with cs_bar=1.
+time=23350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=1, tx_done=1
+time=23370000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=1, rx_valid=1, tx_done=1
+SCLK started for TX with cs_bar=1.
+time=23390000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=1, tx_done=1
+Timeout: SCLK did not start for TX with cs_bar=1.
+Timeout: rx_valid not asserted with cs_bar=1.
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_tt_um_uart_spi'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_tt_um_uart_spi_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/spi_master_slave_v3_clk_crtl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_master_slave_v3_clk_crtl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_spi_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/tb_project.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_tt_um_uart_spi
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_tt_um_uart_spi'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_tt_um_uart_spi_behav xil_defaultlib.tb_tt_um_uart_spi xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/SOFTWARES/vivado2024/install/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_tt_um_uart_spi_behav xil_defaultlib.tb_tt_um_uart_spi xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/project.v" Line 8. Module tt_um_uart_spi doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_top.sv" Line 3. Module uart_spi_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv" Line 3. Module uart_rx_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv" Line 20. Module uart_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx.sv" Line 20. Module uart_rx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/spi_master_slave_v3_clk_crtl.sv" Line 3. Module spi_master_slave_v3_clk_crtl_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/project.v" Line 8. Module tt_um_uart_spi doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_top.sv" Line 3. Module uart_spi_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv" Line 3. Module uart_rx_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv" Line 20. Module uart_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx.sv" Line 20. Module uart_rx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/spi_master_slave_v3_clk_crtl.sv" Line 3. Module spi_master_slave_v3_clk_crtl_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_tx
+Compiling module xil_defaultlib.uart_rx
+Compiling module xil_defaultlib.uart_rx_tx
+Compiling module xil_defaultlib.spi_master_slave_v3_clk_crtl_def...
+Compiling module xil_defaultlib.uart_spi_top
+Compiling module xil_defaultlib.tt_um_uart_spi
+Compiling module xil_defaultlib.tb_tt_um_uart_spi
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_tt_um_uart_spi_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+Time resolution is 1 ps
+time=0, sclk=1, cs_bar=0, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Starting UART loopback test...
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1550.641 ; gain = 0.000
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run 2 ms
+time=0, sclk=1, cs_bar=0, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Starting UART loopback test...
+UART RX valid asserted.
+UART loopback test failed: sent a5, received xx
+Starting SPI loopback test with cs_bar=1...
+time=19850000, sclk=1, cs_bar=1, slave_rx_start=1, slave_tx_start=0, rx_valid=0, tx_done=0
+time=19870000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+SCLK started toggling (detected negedge).
+time=19950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Timeout: SCLK did not start toggling with cs_bar=1.
+time=21950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+SPI RX valid asserted with cs_bar=1.
+time=23350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=1, tx_done=1
+time=23370000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=1, rx_valid=1, tx_done=1
+SCLK started for TX with cs_bar=1.
+time=23390000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=1, tx_done=1
+Timeout: SCLK did not start for TX with cs_bar=1.
+Timeout: rx_valid not asserted with cs_bar=1.
+current_wave_config {tb_spi_master_slave_v3_clk_crtl_loopback_behav.wcfg}
+tb_spi_master_slave_v3_clk_crtl_loopback_behav.wcfg
+add_wave {{/tb_tt_um_uart_spi/dut/top_uut/dut_spi}} 
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run 1 ms
+time=0, sclk=1, cs_bar=0, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Starting UART loopback test...
+UART RX valid asserted.
+UART loopback test failed: sent a5, received xx
+Starting SPI loopback test with cs_bar=1...
+time=19850000, sclk=1, cs_bar=1, slave_rx_start=1, slave_tx_start=0, rx_valid=0, tx_done=0
+time=19870000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+SCLK started toggling (detected negedge).
+time=19950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Timeout: SCLK did not start toggling with cs_bar=1.
+time=21950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+SPI RX valid asserted with cs_bar=1.
+time=23350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=1, tx_done=1
+time=23370000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=1, rx_valid=1, tx_done=1
+SCLK started for TX with cs_bar=1.
+time=23390000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=1, tx_done=1
+Timeout: SCLK did not start for TX with cs_bar=1.
+Timeout: rx_valid not asserted with cs_bar=1.
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run 100 us
+time=0, sclk=1, cs_bar=0, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Starting UART loopback test...
+UART RX valid asserted.
+UART loopback test failed: sent a5, received xx
+Starting SPI loopback test with cs_bar=1...
+time=19850000, sclk=1, cs_bar=1, slave_rx_start=1, slave_tx_start=0, rx_valid=0, tx_done=0
+time=19870000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+SCLK started toggling (detected negedge).
+time=19950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Timeout: SCLK did not start toggling with cs_bar=1.
+time=21950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+SPI RX valid asserted with cs_bar=1.
+time=23350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=1, tx_done=1
+time=23370000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=1, rx_valid=1, tx_done=1
+SCLK started for TX with cs_bar=1.
+time=23390000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=1, tx_done=1
+Timeout: SCLK did not start for TX with cs_bar=1.
+Timeout: rx_valid not asserted with cs_bar=1.
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_tt_um_uart_spi'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_tt_um_uart_spi_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/spi_master_slave_v3_clk_crtl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_master_slave_v3_clk_crtl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_spi_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/tb_project.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_tt_um_uart_spi
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_tt_um_uart_spi'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_tt_um_uart_spi_behav xil_defaultlib.tb_tt_um_uart_spi xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/SOFTWARES/vivado2024/install/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_tt_um_uart_spi_behav xil_defaultlib.tb_tt_um_uart_spi xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/project.v" Line 8. Module tt_um_uart_spi doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_top.sv" Line 3. Module uart_spi_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv" Line 3. Module uart_rx_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv" Line 20. Module uart_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx.sv" Line 20. Module uart_rx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/spi_master_slave_v3_clk_crtl.sv" Line 3. Module spi_master_slave_v3_clk_crtl_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/project.v" Line 8. Module tt_um_uart_spi doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_top.sv" Line 3. Module uart_spi_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv" Line 3. Module uart_rx_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv" Line 20. Module uart_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx.sv" Line 20. Module uart_rx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/spi_master_slave_v3_clk_crtl.sv" Line 3. Module spi_master_slave_v3_clk_crtl_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_tx
+Compiling module xil_defaultlib.uart_rx
+Compiling module xil_defaultlib.uart_rx_tx
+Compiling module xil_defaultlib.spi_master_slave_v3_clk_crtl_def...
+Compiling module xil_defaultlib.uart_spi_top
+Compiling module xil_defaultlib.tt_um_uart_spi
+Compiling module xil_defaultlib.tb_tt_um_uart_spi
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_tt_um_uart_spi_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+Time resolution is 1 ps
+time=0, sclk=1, cs_bar=0, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Starting UART loopback test...
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 2603.711 ; gain = 0.000
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run 100 us
+time=0, sclk=1, cs_bar=0, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Starting UART loopback test...
+UART RX valid asserted.
+UART loopback test failed: sent a5, received xx
+Starting SPI loopback test with cs_bar=1...
+time=19850000, sclk=1, cs_bar=1, slave_rx_start=1, slave_tx_start=0, rx_valid=0, tx_done=0
+time=19870000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+SCLK started toggling (detected negedge).
+time=19950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Timeout: SCLK did not start toggling with cs_bar=1.
+time=21950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+SPI RX valid asserted with cs_bar=1.
+time=23350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=1, tx_done=1
+time=23370000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=1, rx_valid=1, tx_done=1
+SCLK started for TX with cs_bar=1.
+time=23390000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=1, tx_done=1
+Timeout: SCLK did not start for TX with cs_bar=1.
+Timeout: rx_valid not asserted with cs_bar=1.
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_tt_um_uart_spi'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_tt_um_uart_spi_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/spi_master_slave_v3_clk_crtl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_master_slave_v3_clk_crtl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_spi_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/tb_project.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_tt_um_uart_spi
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_tt_um_uart_spi'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_tt_um_uart_spi_behav xil_defaultlib.tb_tt_um_uart_spi xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/SOFTWARES/vivado2024/install/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_tt_um_uart_spi_behav xil_defaultlib.tb_tt_um_uart_spi xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/project.v" Line 8. Module tt_um_uart_spi doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_top.sv" Line 3. Module uart_spi_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv" Line 3. Module uart_rx_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv" Line 20. Module uart_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx.sv" Line 20. Module uart_rx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/spi_master_slave_v3_clk_crtl.sv" Line 3. Module spi_master_slave_v3_clk_crtl_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/project.v" Line 8. Module tt_um_uart_spi doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_top.sv" Line 3. Module uart_spi_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv" Line 3. Module uart_rx_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv" Line 20. Module uart_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx.sv" Line 20. Module uart_rx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/spi_master_slave_v3_clk_crtl.sv" Line 3. Module spi_master_slave_v3_clk_crtl_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_tx
+Compiling module xil_defaultlib.uart_rx
+Compiling module xil_defaultlib.uart_rx_tx
+Compiling module xil_defaultlib.spi_master_slave_v3_clk_crtl_def...
+Compiling module xil_defaultlib.uart_spi_top
+Compiling module xil_defaultlib.tt_um_uart_spi
+Compiling module xil_defaultlib.tb_tt_um_uart_spi
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_tt_um_uart_spi_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+Time resolution is 1 ps
+time=0, sclk=1, cs_bar=0, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Starting UART loopback test...
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 2603.711 ; gain = 0.000
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run 100 us
+time=0, sclk=1, cs_bar=0, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Starting UART loopback test...
+UART RX valid asserted.
+UART loopback test failed: sent a5, received xx
+Starting SPI loopback test with cs_bar=1...
+time=19850000, sclk=1, cs_bar=1, slave_rx_start=1, slave_tx_start=0, rx_valid=0, tx_done=0
+time=19870000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+SCLK started toggling (detected negedge).
+time=19950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Timeout: SCLK did not start toggling with cs_bar=1.
+time=21950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+SPI RX valid asserted with cs_bar=1.
+time=23350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=1, tx_done=1
+time=23390000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=1, tx_done=1
+time=23450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=1, rx_valid=1, tx_done=1
+time=23470000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=1, tx_done=1
+Timeout: SCLK did not start for TX with cs_bar=1.
+Timeout: rx_valid not asserted with cs_bar=1.
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_tt_um_uart_spi'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_tt_um_uart_spi_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/spi_master_slave_v3_clk_crtl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_master_slave_v3_clk_crtl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_spi_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/tb_project.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_tt_um_uart_spi
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_tt_um_uart_spi'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_tt_um_uart_spi_behav xil_defaultlib.tb_tt_um_uart_spi xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/SOFTWARES/vivado2024/install/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_tt_um_uart_spi_behav xil_defaultlib.tb_tt_um_uart_spi xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/project.v" Line 8. Module tt_um_uart_spi doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_top.sv" Line 3. Module uart_spi_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv" Line 3. Module uart_rx_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv" Line 20. Module uart_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx.sv" Line 20. Module uart_rx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/spi_master_slave_v3_clk_crtl.sv" Line 3. Module spi_master_slave_v3_clk_crtl_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/project.v" Line 8. Module tt_um_uart_spi doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_top.sv" Line 3. Module uart_spi_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv" Line 3. Module uart_rx_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv" Line 20. Module uart_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx.sv" Line 20. Module uart_rx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/spi_master_slave_v3_clk_crtl.sv" Line 3. Module spi_master_slave_v3_clk_crtl_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_tx
+Compiling module xil_defaultlib.uart_rx
+Compiling module xil_defaultlib.uart_rx_tx
+Compiling module xil_defaultlib.spi_master_slave_v3_clk_crtl_def...
+Compiling module xil_defaultlib.uart_spi_top
+Compiling module xil_defaultlib.tt_um_uart_spi
+Compiling module xil_defaultlib.tb_tt_um_uart_spi
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_tt_um_uart_spi_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+Time resolution is 1 ps
+time=0, sclk=1, cs_bar=0, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Starting UART loopback test...
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 2603.719 ; gain = 0.000
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run 100 us
+time=0, sclk=1, cs_bar=0, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Starting UART loopback test...
+UART RX valid asserted.
+UART loopback test failed: sent a5, received xx
+Starting SPI loopback test with cs_bar=1...
+time=19850000, sclk=1, cs_bar=1, slave_rx_start=1, slave_tx_start=0, rx_valid=0, tx_done=0
+time=19870000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+SCLK started toggling (detected negedge).
+time=19950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Timeout: SCLK did not start toggling with cs_bar=1.
+time=21950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+SPI RX valid asserted with cs_bar=1.
+time=23350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=1, tx_done=1
+time=23370000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=1, rx_valid=1, tx_done=1
+time=23390000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=1, tx_done=1
+Timeout: SCLK did not start for TX with cs_bar=1.
+Timeout: rx_valid not asserted with cs_bar=1.
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_tt_um_uart_spi'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_tt_um_uart_spi_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/spi_master_slave_v3_clk_crtl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_master_slave_v3_clk_crtl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_spi_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/tb_project.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_tt_um_uart_spi
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_tt_um_uart_spi'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_tt_um_uart_spi_behav xil_defaultlib.tb_tt_um_uart_spi xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/SOFTWARES/vivado2024/install/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_tt_um_uart_spi_behav xil_defaultlib.tb_tt_um_uart_spi xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/project.v" Line 8. Module tt_um_uart_spi doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_top.sv" Line 3. Module uart_spi_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv" Line 3. Module uart_rx_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv" Line 20. Module uart_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx.sv" Line 20. Module uart_rx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/spi_master_slave_v3_clk_crtl.sv" Line 3. Module spi_master_slave_v3_clk_crtl_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/project.v" Line 8. Module tt_um_uart_spi doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_top.sv" Line 3. Module uart_spi_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv" Line 3. Module uart_rx_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv" Line 20. Module uart_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx.sv" Line 20. Module uart_rx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/spi_master_slave_v3_clk_crtl.sv" Line 3. Module spi_master_slave_v3_clk_crtl_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_tx
+Compiling module xil_defaultlib.uart_rx
+Compiling module xil_defaultlib.uart_rx_tx
+Compiling module xil_defaultlib.spi_master_slave_v3_clk_crtl_def...
+Compiling module xil_defaultlib.uart_spi_top
+Compiling module xil_defaultlib.tt_um_uart_spi
+Compiling module xil_defaultlib.tb_tt_um_uart_spi
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_tt_um_uart_spi_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+Time resolution is 1 ps
+time=0, sclk=1, cs_bar=0, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Starting UART loopback test...
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 2603.719 ; gain = 0.000
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run 100 us
+time=0, sclk=1, cs_bar=0, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Starting UART loopback test...
+UART RX valid asserted.
+UART loopback test failed: sent a5, received xx
+Starting SPI loopback test with cs_bar=1...
+time=19850000, sclk=1, cs_bar=1, slave_rx_start=1, slave_tx_start=0, rx_valid=0, tx_done=0
+time=19870000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+SCLK started toggling (detected negedge).
+time=19950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Timeout: SCLK did not start toggling with cs_bar=1.
+time=21950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+SPI RX valid asserted with cs_bar=1.
+time=23350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=1, tx_done=1
+time=23370000, sclk=0, cs_bar=1, slave_rx_start=1, slave_tx_start=1, rx_valid=1, tx_done=1
+time=23390000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=1, tx_done=1
+Timeout: SCLK did not start for TX with cs_bar=1.
+Timeout: rx_valid not asserted with cs_bar=1.
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_tt_um_uart_spi'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_tt_um_uart_spi_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/spi_master_slave_v3_clk_crtl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_master_slave_v3_clk_crtl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_spi_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/tb_project.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_tt_um_uart_spi
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_tt_um_uart_spi'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_tt_um_uart_spi_behav xil_defaultlib.tb_tt_um_uart_spi xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/SOFTWARES/vivado2024/install/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_tt_um_uart_spi_behav xil_defaultlib.tb_tt_um_uart_spi xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/project.v" Line 8. Module tt_um_uart_spi doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_top.sv" Line 3. Module uart_spi_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv" Line 3. Module uart_rx_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv" Line 20. Module uart_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx.sv" Line 20. Module uart_rx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/spi_master_slave_v3_clk_crtl.sv" Line 3. Module spi_master_slave_v3_clk_crtl_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/project.v" Line 8. Module tt_um_uart_spi doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_top.sv" Line 3. Module uart_spi_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv" Line 3. Module uart_rx_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv" Line 20. Module uart_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx.sv" Line 20. Module uart_rx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/spi_master_slave_v3_clk_crtl.sv" Line 3. Module spi_master_slave_v3_clk_crtl_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_tx
+Compiling module xil_defaultlib.uart_rx
+Compiling module xil_defaultlib.uart_rx_tx
+Compiling module xil_defaultlib.spi_master_slave_v3_clk_crtl_def...
+Compiling module xil_defaultlib.uart_spi_top
+Compiling module xil_defaultlib.tt_um_uart_spi
+Compiling module xil_defaultlib.tb_tt_um_uart_spi
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_tt_um_uart_spi_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+Time resolution is 1 ps
+time=0, sclk=1, cs_bar=0, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Starting UART loopback test...
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 2603.719 ; gain = 0.000
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run 50 us
+time=0, sclk=1, cs_bar=0, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Starting UART loopback test...
+UART RX valid asserted.
+UART loopback test failed: sent a5, received xx
+Starting SPI loopback test with cs_bar=1...
+time=19850000, sclk=1, cs_bar=1, slave_rx_start=1, slave_tx_start=1, rx_valid=0, tx_done=0
+time=19870000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+SCLK started toggling (detected negedge).
+time=19950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Timeout: SCLK did not start toggling with cs_bar=1.
+time=21950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+SPI RX valid asserted with cs_bar=1.
+time=23250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=1, tx_done=1
+time=23270000, sclk=1, cs_bar=1, slave_rx_start=1, slave_tx_start=1, rx_valid=1, tx_done=1
+time=23290000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=1, tx_done=1
+Timeout: SCLK did not start for TX with cs_bar=1.
+Timeout: rx_valid not asserted with cs_bar=1.
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_tt_um_uart_spi'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_tt_um_uart_spi_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_tt_um_uart_spi'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_tt_um_uart_spi_behav xil_defaultlib.tb_tt_um_uart_spi xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/SOFTWARES/vivado2024/install/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_tt_um_uart_spi_behav xil_defaultlib.tb_tt_um_uart_spi xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Time resolution is 1 ps
+time=0, sclk=1, cs_bar=0, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Starting UART loopback test...
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2605.918 ; gain = 0.000
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_tt_um_uart_spi'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_tt_um_uart_spi_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_tt_um_uart_spi'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_tt_um_uart_spi_behav xil_defaultlib.tb_tt_um_uart_spi xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/SOFTWARES/vivado2024/install/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_tt_um_uart_spi_behav xil_defaultlib.tb_tt_um_uart_spi xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Time resolution is 1 ps
+time=0, sclk=1, cs_bar=0, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Starting UART loopback test...
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2605.918 ; gain = 0.000
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run 50 us
+time=0, sclk=1, cs_bar=0, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Starting UART loopback test...
+UART RX valid asserted.
+UART loopback test failed: sent a5, received xx
+Starting SPI loopback test with cs_bar=1...
+time=19850000, sclk=1, cs_bar=1, slave_rx_start=1, slave_tx_start=1, rx_valid=0, tx_done=0
+time=19870000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+SCLK started toggling (detected negedge).
+time=19950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=21850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Timeout: SCLK did not start toggling with cs_bar=1.
+time=21950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22750000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=22950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=23150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+SPI RX valid asserted with cs_bar=1.
+time=23250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=1, tx_done=1
+time=23270000, sclk=1, cs_bar=1, slave_rx_start=1, slave_tx_start=1, rx_valid=1, tx_done=1
+time=23290000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=1, tx_done=1
+Timeout: SCLK did not start for TX with cs_bar=1.
+Timeout: rx_valid not asserted with cs_bar=1.
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_tt_um_uart_spi'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_tt_um_uart_spi_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/spi_master_slave_v3_clk_crtl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_master_slave_v3_clk_crtl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_spi_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/ttsky_multiplier_uart_spi/src/tb_project.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_tt_um_uart_spi
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_tt_um_uart_spi'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_tt_um_uart_spi_behav xil_defaultlib.tb_tt_um_uart_spi xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/SOFTWARES/vivado2024/install/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_tt_um_uart_spi_behav xil_defaultlib.tb_tt_um_uart_spi xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/project.v" Line 8. Module tt_um_uart_spi doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_top.sv" Line 3. Module uart_spi_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv" Line 3. Module uart_rx_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv" Line 20. Module uart_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx.sv" Line 20. Module uart_rx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/spi_master_slave_v3_clk_crtl.sv" Line 3. Module spi_master_slave_v3_clk_crtl_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/project.v" Line 8. Module tt_um_uart_spi doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_spi_top.sv" Line 3. Module uart_spi_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx_tx.sv" Line 3. Module uart_rx_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_tx.sv" Line 20. Module uart_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/uart_rx.sv" Line 20. Module uart_rx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/ttsky_multiplier_uart_spi/src/spi_master_slave_v3_clk_crtl.sv" Line 3. Module spi_master_slave_v3_clk_crtl_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_tx
+Compiling module xil_defaultlib.uart_rx
+Compiling module xil_defaultlib.uart_rx_tx
+Compiling module xil_defaultlib.spi_master_slave_v3_clk_crtl_def...
+Compiling module xil_defaultlib.uart_spi_top
+Compiling module xil_defaultlib.tt_um_uart_spi
+Compiling module xil_defaultlib.tb_tt_um_uart_spi
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_tt_um_uart_spi_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+Time resolution is 1 ps
+time=0, sclk=1, cs_bar=0, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Starting UART loopback test...
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 2606.113 ; gain = 0.000
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run 50 us
+time=0, sclk=1, cs_bar=0, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Starting UART loopback test...
+UART RX valid asserted.
+UART loopback test failed: sent a5, received xx
+time=19850000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+Starting SPI loopback test with cs_bar=1...
+time=19890000, sclk=1, cs_bar=1, slave_rx_start=1, slave_tx_start=0, rx_valid=0, tx_done=0
+time=19910000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=19930000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=19950000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=19970000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=19990000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20010000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20030000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20050000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20070000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20090000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20110000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20130000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20150000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20170000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20190000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20210000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20230000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20250000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20270000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20290000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20310000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20330000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20350000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20370000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20390000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20410000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20430000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20450000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20470000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20490000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20510000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20530000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20550000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20570000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20590000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20610000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=0, tx_done=0
+time=20630000, sclk=0, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=1, tx_done=1
+time=20650000, sclk=1, cs_bar=1, slave_rx_start=0, slave_tx_start=0, rx_valid=1, tx_done=1
+save_wave_config {D:/Github/ttsky_multiplier_uart_spi/vivado/uart_spi_loopback/project_2/tb_spi_master_slave_v3_clk_crtl_loopback_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Sep 16 00:46:21 2025...

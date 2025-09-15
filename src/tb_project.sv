@@ -245,14 +245,16 @@ module tb_tt_um_uart_spi;
 ///////////////////////////////////////////////////////////////////////////////////////////////
 
         // SPI Tests with different cs_bar values for debugging
+		rst_n = 0;
         ui_in[7] = 0;  // loopback
 		uio_in[0] = 0; // slave_rx_start
         uio_in[1] = 0; // slave_rx_start
 		ui_in[1:0] = 2'b01; // freq_control
 		ui_in[4] = 1;  // cs_bar=1
-		rst_n = 0;
 		#40;
+
         rst_n = 1;
+		#40;
 
         // Test 2a: SPI loopback with cs_bar=1 (as per DUT condition & cs_bar)
         $display("Starting SPI loopback test with cs_bar=1...");
@@ -278,8 +280,33 @@ module tb_tt_um_uart_spi;
 		wait (uo_out[4]);
 		#20;
 		
-		#200;
+		#400;
 		
+		// Test 3a: SPI loopback with cs_bar=1 (as per DUT condition & cs_bar)
+        $display("Starting SPI loopback test with cs_bar=1...");
+
+        // @(posedge clk);  // Sync trigger to posedge
+        uio_in[0] = 1;  // slave_rx_start=1
+        #20;
+        uio_in[0] = 0;
+		bit_idx = 15;
+		
+		spi_tx_data = 16'hA55A;
+		
+		@(negedge uo_out[6])
+		ui_in[5] = spi_tx_data[bit_idx];  //mosi = ...
+		bit_idx--;
+		
+		while (bit_idx >= 0) begin
+                @(negedge uo_out[6]);
+                ui_in[5] = spi_tx_data[bit_idx];
+                bit_idx--;
+        end
+		
+		wait (uo_out[4]);
+		#20;
+		
+		#400;
 		
         // // Wait for SCLK to start with timeout
         // fork
